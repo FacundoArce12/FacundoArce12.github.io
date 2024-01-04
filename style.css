@@ -1,0 +1,287 @@
+body {
+  background-color: rgb(247, 247, 247);
+}
+
+h1 {
+  color: #FDCF00;
+  background-color: #023f86;
+}
+
+.LOGO {
+  padding-left: 60%;
+  height: 100px;
+  width: 200px;
+}
+
+
+.LOGO:hover {
+  transform: translateY(-5%);
+}
+
+
+
+.navbar {
+  border: #023f86 solid 2px;
+  background-color: #FDCF00 !important;
+  position: fixed;
+  width: 100%;
+  z-index: 1000000;
+  top: 0;
+}
+
+.BotonWsp {
+  height: 100%;
+  border: white;
+  border-radius: 10%;
+  background-color: #28DC40;
+  color: white;
+}
+
+.BotonWsp:hover {
+  transform: translateY(-5%);
+}
+
+.nav-item {
+  padding-left: 75%;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 22px;
+}
+
+a.nav-link {
+  color: #080808 !important;
+}
+
+a.nav-link:focus {
+  color: #023f86 !important;
+}
+
+a.nav-link:hover {
+  background-color: #023f86 !important;
+  color: white !important;
+}
+
+.carousel-item {
+  position: relative !important;
+  height: 100% !important;
+}
+
+.carousel-inner {
+  height: 100%;
+  width: 100%;
+}
+
+.carousel-inner img {
+  height: 100%
+}
+
+.container {
+  width: 50%;
+  display: flex;
+  max-width: 1100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#tituloCatalogo {
+  font-family: 'Orbitron', sans-serif;
+  margin-bottom: 2%;
+}
+
+.card {
+  width: 350px;
+  height: 100%;
+  display: inline-flex;
+  margin: 20px;
+  border-radius: 6px;
+  overflow: hidden;
+  background: gray;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  cursor: default;
+  transition: all 400ms ease;
+}
+
+.card:hover {
+  box-shadow: 5px 5px 20px #fdcf00;
+  transform: translateY(-3%);
+
+}
+
+.btn-primary a {
+  color: #FDCF00 !important;
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+}
+
+.card .container {
+  padding: 15px;
+  text-align: center;
+
+}
+
+.card .container p {
+  font-size: 1%;
+  line-height: 0.5;
+  color: #6a6a6a;
+
+}
+
+.card .container h3 {
+  margin-bottom: 15%;
+
+}
+
+.card .container {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+  margin-top: 10px;
+  color: #2fbacc;
+  border: 1px solid #2fbacc;
+  border-radius: 4px;
+  transition: all 400ms ease;
+
+}
+
+.card h3 {
+  background-color: #023f86;
+  color: white;
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.card p {
+  background-color: #fdcf00;
+  color: black;
+  text-align: center;
+}
+
+.btn-primary {
+  color: #fdcf00;
+  background-color: #023f86 !important;
+  border: #fdcf00;
+  margin-left: 35%;
+  margin-top: 3%;
+}
+
+footer {
+  font-family: 'Orbitron', sans-serif;
+  margin-top: 10%;
+}
+
+footer,
+h4 {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.logoFooter {
+  width: 45px;
+  margin-right: 6px;
+  transition: width 0.3s ease-in-out;
+  padding-bottom: 2%;
+}
+
+.logoFooter:hover {
+  width: 54px;
+}
+
+.contenedorRedes {
+  color: #CCD1D1;
+}
+
+.TyC h1 {
+  text-align: center;
+}
+
+.TyC h3 {
+  text-align: center;
+}
+
+.TyC p {
+  text-align: center;
+}
+
+.btn-primary a {
+  text-decoration: none;
+  color: black;
+}
+
+.btn-primary a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.Carouselproducto {
+  position: relative;
+  width: 10% !important;
+  height: 10% !important;
+}
+
+.Ferdi {
+  text-align: center;
+}
+
+.Ferdi img {
+  max-width: 65%;
+  height: 450px;
+}
+
+#botonMusica {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px !important;
+  height: 10% !important;
+  border-radius: 50%;
+  font-size: 150%;
+}
+
+.Monitos {
+  text-align: center;
+}
+
+.Monitos img {
+  max-width: 55%;
+  height: 450px;
+}
+.bg-dark {
+  background-color: #ffee03 !important;
+}
+
+
+.btn-light {
+  background-color: blue !important;
+  color: #ffee03;
+}
+
+.RSBruno{
+  text-align: center;
+}
+.Big{
+  width: 7%;
+  height: 7%;
+}
+.Big:hover{
+  transform: translateY(-10%);
+}
+.IGesto{
+  font-family: 'Orbitron', sans-serif;
+  font-size: 300% !important;
+  color: #FDCF00;
+}
+.IGesto:hover{
+  transform: translateY(-10%);
+}
+.IGesto2{
+  font-family: 'Orbitron', sans-serif;
+  font-size: 300% !important;
+  color: #023f86;
+}
+.IGesto2:hover{
+  transform: translateY(-10%);
+}
